@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: testingcenter
-          image: "username/testingcenter:latest"
+          image: "879772956301.dkr.ecr.ca-central-1.amazonaws.com/user10-testingcenter"
           ports:
             - containerPort: 8080
           readinessProbe:
